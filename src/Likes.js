@@ -15,7 +15,7 @@ export class Likes extends Component {
 	}
 	render() {
 		return(
-			<div>
+			<div className="one">
 				<h3>{this.state.likes} LIKES</h3>
 				<button onClick={() => this.updateLikes()}>LIKE</button>
 			</div>

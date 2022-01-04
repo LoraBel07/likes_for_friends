@@ -19,9 +19,9 @@ export class Heart extends Component {
 
 	render() {
 		return(
-			<div>
+			<div className="one">
 				<h2>{this.state.information}</h2>
-				<button onClick={() => this.updateInfo()}><img src={this.state.image} width="200px" alt="Like" /></button>
+				<img onClick={() => this.updateInfo()} src={this.state.image} width="200px" alt="Like" />
 				
 			</div>
 		)
